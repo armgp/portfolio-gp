@@ -10,7 +10,7 @@ const HeroSection = () => {
               <div className="col-span-7 place-self-center text-left">
                   <h1 className='text-white mb-5 text-4xl sm:text-5xl lg:text-6xl font-extrabold'>
                       <div className='text-transparent bg-clip-text bg-gradient-to-r from-blue-700 via-black-500 to-green-800  hover:bg-green-800 mb-2'>
-                          Hey, I'm{""}
+                          {`Hey, I'm`}{" "}
                       </div>
                       <TypeAnimation
                         sequence={[
@@ -27,7 +27,7 @@ const HeroSection = () => {
                      />
                   </h1>
                   <p className='text-gray-500 mb-6 text-base sm:text-lg lg:text-xl'>
-                      Welcome to my portfolio! I'm a software developer with a passion for innovation, currently enrolled in the M.Tech Computer Science program at <a className='font-semibold underline hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r from-blue-700 via-black-500 to-green-800  hover:bg-green-800' href='https://www.iiit.ac.in/' target="_blank">IIIT Hyderabad</a>, where I'm exploring the latest advancements in technology.
+                      {`Welcome to my portfolio! I'm a software developer with a passion for innovation, currently enrolled in the M.Tech Computer Science program at`} <a className='font-semibold underline hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r from-blue-700 via-black-500 to-green-800  hover:bg-green-800' href='https://www.iiit.ac.in/' target="_blank">IIIT Hyderabad</a>{`, where I'm exploring the latest advancements in technology.`}
                   </p>
                   <div>
                       <button className='px-6 py-3 rounded-full w-full sm:w-fit bg-gradient-to-br from-blue-700 via-black-500 to-green-800  hover:bg-gradient-to-r hover:from-blue-700 hover:via-black-500 hover:to-green-800 text-white mr-4'>Hire Me</button>

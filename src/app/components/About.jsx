@@ -95,18 +95,18 @@ const About = () => {
   return (
     <section className='text-white'>
         <div className='md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16'>
-              <Image src="/images/setup.png" width={500} height={500} />
+              <Image src="/images/setup.png" alt="setup image" width={500} height={500} />
               <div className='mt-4 md:mt-0 text-left flex flex-col h-full'>
                   <h2 className='text-4xl font-bold text-white mb-4'>About Me</h2>
                   <p className='text-gray-500 text-base lg:text-lg'>        
-                      I'm a dynamic full-stack developer driven by an insatiable passion for crafting
+                     {` I'm a dynamic full-stack developer driven by an insatiable passion for crafting
                       remarkable digital experiences. With a continuosly improving skill set 
                       and a knack for rapid learning, I thrive on the ever-evolving challenges of the tech
                       world. My journey in web development has been a relentless pursuit of excellence,
                       fueled by an unquenchable curiosity to explore new horizons. I firmly believe that
                       the most extraordinary products are born through collective genius, and I'm eager to
                       join forces with like-minded individuals to bring visionary ideas to life.
-                      Let's connect, innovate, and create something amazing together.
+                      Let's connect, innovate, and create something amazing together.`}
                   </p>
                   <div className='flex flex-row mt-8'>
                       <TabButton

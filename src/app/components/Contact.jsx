@@ -1,3 +1,4 @@
+"use client"
 import React from 'react'
 import GithubIcon from 'public/images/githubIcon.svg'
 import LinkedinIcon from 'public/images/linkedinIcon.svg'
@@ -73,6 +74,7 @@ const Contact = () => {
                   </div>
                   <button
                       type='submit'
+                      onClick={() => alert('Sorry! Feature yet to be implemented.')}
                       className='text-white bg-blue-700 hover:bg-gradient-to-r hover:from-blue-700 hover:via-black-500 hover:to-green-800 font-medium py-2.5 px-5 rounded-lg w-full'
                   >
                       Send Message

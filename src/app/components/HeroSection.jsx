@@ -8,7 +8,7 @@ const HeroSection = () => {
       <section>
           <div className='grid grid-cols-1 md:grid-cols-12'>
               <div className="col-span-7 place-self-center text-left">
-                  <h1 className='text-white mb-5 text-xl sm:text-5xl lg:text-6xl font-extrabold'>
+                  <h1 className='text-white mb-5 text-3xl sm:text-5xl lg:text-6xl font-extrabold'>
                       <div className='text-transparent bg-clip-text bg-gradient-to-r from-blue-700 via-black-500 to-green-800  hover:bg-green-800 mb-2'>
                           {`Hey, I'm`}{" "}
                       </div>

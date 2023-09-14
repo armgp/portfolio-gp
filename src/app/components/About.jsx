@@ -108,31 +108,32 @@ const About = () => {
                       join forces with like-minded individuals to bring visionary ideas to life.
                       Let's connect, innovate, and create something amazing together.`}
                   </p>
-                  <div className='flex flex-row mt-8'>
-                      <TabButton
-                          selectTab={() => handleTabChange("skills")}
-                          active={tab === "skills"}
-                      >
-                          Skills
-                      </TabButton>
-                      <TabButton
-                          selectTab={() => handleTabChange("education")}
-                          active={tab === "education"}
-                      >
-                          Education
-                      </TabButton>
-                      <TabButton
-                          selectTab={() => handleTabChange("experience")}
-                          active={tab === "experience"}
-                      >
-                          Experience
-                      </TabButton>
-                      <TabButton
-                          selectTab={() => handleTabChange("projects")}
-                          active={tab === "projects"}
-                      >
-                          Projects
-                      </TabButton>
+                  
+                  <div className='flex flex-row flex-wrap mt-8'>
+                    <TabButton
+                        selectTab={() => handleTabChange("skills")}
+                        active={tab === "skills"}
+                    >
+                        Skills
+                    </TabButton>
+                    <TabButton
+                        selectTab={() => handleTabChange("education")}
+                        active={tab === "education"}
+                    >
+                        Education
+                    </TabButton>
+                    <TabButton
+                        selectTab={() => handleTabChange("experience")}
+                        active={tab === "experience"}
+                    >
+                        Experience
+                    </TabButton>
+                    <TabButton
+                        selectTab={() => handleTabChange("projects")}
+                        active={tab === "projects"}
+                    >
+                        Projects
+                    </TabButton>                      
                   </div>
                   <div className='mt-8 text-gray-500'>
                       {TAB_DATA.find((t) => t.id === tab).content}

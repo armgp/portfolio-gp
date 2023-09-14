@@ -1,7 +1,7 @@
 "use client"
 import React from 'react'
 import Image from 'next/image'
-import { TypeAnimation } from 'react-type-animation';
+import { TypeAnimation } from 'react-type-animation'
 
 const HeroSection = () => {
   return (
@@ -30,12 +30,20 @@ const HeroSection = () => {
                       {`Welcome to my portfolio! I'm a software developer with a passion for innovation, currently enrolled in the M.Tech Computer Science program at`} <a className='font-semibold underline hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r from-blue-700 via-black-500 to-green-800  hover:bg-green-800' href='https://www.iiit.ac.in/' target="_blank">IIIT Hyderabad</a>{`, where I'm exploring the latest advancements in technology.`}
                   </p>
                   <div>
-                      <button className='px-6 py-3 rounded-full w-full sm:w-fit bg-gradient-to-br from-blue-700 via-black-500 to-green-800  hover:bg-gradient-to-r hover:from-blue-700 hover:via-black-500 hover:to-green-800 text-white mr-4'>Hire Me</button>
-                      <button className='px-1 py-1 rounded-full w-full sm:w-fit bg-gradient-to-br from-blue-700 via-black-500 to-green-800 text-white mt-3'>
+                      <button
+                          className='px-6 py-3 rounded-full w-full sm:w-fit bg-gradient-to-br from-blue-700 via-black-500 to-green-800  hover:bg-gradient-to-r hover:from-blue-700 hover:via-black-500 hover:to-green-800 text-white mr-4'
+                      >
+                          Hire Me
+                      </button>
+                      <a href='docs/Abhiram_GP_2023.pdf' download='AbhiramGP.pdf'>
+                      <button
+                          className='px-1 py-1 rounded-full w-full sm:w-fit bg-gradient-to-br from-blue-700 via-black-500 to-green-800 text-white mt-3'
+                      >
                           <span className='block bg-black rounded-full hover:bg-slate-800 px-5 py-2'>
                               Download CV
                           </span>
-                      </button>
+                          </button>
+                          </a>
                   </div>
               </div>
               <div className='col-span-5 place-self-center'>

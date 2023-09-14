@@ -8,32 +8,31 @@ const TAB_DATA = [
         title: "Skills",
         id: "skills",
         content: (
-            <div className="flex flex-wrap space-x-8">
-                <div className="w-1/4">
-                    <ul className='list-disc pl-2'>
+            <div className="flex flex-wrap space-x-8 sm:flex-row flex-col">
+                <div className="w-full sm:w-1/4">
+                    <ul className="list-disc pl-8">
                         <li>C++</li>
                         <li>Python</li>
                         <li>JavaScript</li>
                         <li>React</li>
                     </ul>
                 </div>
-                <div className="w-1/4">
-                    <ul className='list-disc pl-2'>
+                <div className="w-full sm:w-1/4">
+                    <ul className="list-disc">
                         <li>NestJs</li>
                         <li>NextJs</li>
                         <li>ElasticSearch</li>
                         <li>MongoDB</li>
                     </ul>
                 </div>
-                <div className="w-1/4">
-                    <ul className='list-disc pl-2'>
+                <div className="w-full sm:w-1/4">
+                    <ul className="list-disc">
                         <li>HTML</li>
                         <li>CSS</li>
                         <li>Git</li>
                     </ul>
                 </div>
             </div>
-
         )
     },
     {
@@ -74,6 +73,11 @@ const TAB_DATA = [
                 <li>
                     <a className='font-semibold underline hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r from-blue-700 via-black-500 to-green-800  hover:bg-green-800' href='https://github.com/armgp/kaooa_game' target="_blank">
                         Kaooa Board Game
+                    </a>
+                </li>
+                <li>
+                    <a className='font-semibold underline hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r from-blue-700 via-black-500 to-green-800  hover:bg-green-800' href='https://github.com/armgp/portfolio-gp' target="_blank">
+                        My Portfolio Page
                     </a>
                 </li>
             </ul>

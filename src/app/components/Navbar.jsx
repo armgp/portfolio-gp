@@ -23,8 +23,8 @@ const Navbar = () => {
   const [navbarOpen, setNavbarOpen] = useState(false);
   
   return (
-    <nav className='fixed top-0 left-0 right-0 z-10 bg-black bg-opacity-100 mb-10'>
-        <div className='flex flex-wrap items-center justify-between mx-auto p-4'>
+    <nav className='fixed top-0 left-0 right-0 z-10 bg-black bg-opacity-100 mb-10 border border-b-gray-800 border-l-transparent border-r-transparent border-t-transparent'>
+        <div className='flex flex-wrap items-center justify-between mx-auto p-7'>
             <Link href={"/"} className='text-xl md:text-2xl text-gray-500 font-semibold border border-2 rounded-full border-gray-500 p-2'>
                 GP
             </Link>

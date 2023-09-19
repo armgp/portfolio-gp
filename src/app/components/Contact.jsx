@@ -26,7 +26,7 @@ const Contact = () => {
               </div>
           </div>
           <div>
-              <form className='flex flex-col'>
+              <form className='flex flex-col' action="https://formsubmit.co/c8d544ebef9d048fa4823058bb096a31" method="POST">
                   <div className='mb-6'>
                     <label
                         htmlFor="email"
@@ -74,7 +74,6 @@ const Contact = () => {
                   </div>
                   <button
                       type='submit'
-                      onClick={() => alert('Sorry! Feature yet to be implemented.')}
                       className='text-white bg-blue-700 hover:bg-gradient-to-r hover:from-blue-700 hover:via-black-500 hover:to-green-800 font-medium py-2.5 px-5 rounded-lg w-full'
                   >
                       Send Message

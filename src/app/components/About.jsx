@@ -91,6 +91,7 @@ const About = () => {
     const [isPending, startTransition] = useTransition();
 
     const handleTabChange = (id) => {
+        // startTransition makes this state change a low priority state change
         startTransition(() => {
             setTab(id);
         });

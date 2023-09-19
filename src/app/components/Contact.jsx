@@ -35,13 +35,14 @@ const Contact = () => {
                     <label
                         htmlFor="email"
                         type="email"
-                          className='text-white block text-sm font-medium mb-2'
+                        className='text-white block text-sm font-medium mb-2'
                     >
                         Your Email
                     </label>
                     <input
                         type="email"
                         id="email"
+                        name="email"
                         required
                         className='bg-gray-700 border-gray-100 placeholder-gray-500 text-gray-100 text-sm rounded-lg block w-full p-2.5'
                         placeholder="milesmorales@avengers.com"
@@ -57,6 +58,7 @@ const Contact = () => {
                     <input
                         type="text"
                         id="subject"
+                        name="subject"
                         required
                         className='bg-gray-700 border-gray-100 placeholder-gray-500 text-gray-100 text-sm rounded-lg block w-full p-2.5'
                         placeholder="I want to hire you!"

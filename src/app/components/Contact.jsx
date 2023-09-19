@@ -4,8 +4,12 @@ import GithubIcon from 'public/images/githubIcon.svg'
 import LinkedinIcon from 'public/images/linkedinIcon.svg'
 import Link from 'next/link'
 import Image from 'next/image'
+import { useForm } from '@formcarry/react';
 
 const Contact = () => {
+    const {state, submit} = useForm({
+        id: '6YP22yZJob'
+    });
   return (
       <section className='grid md:grid-cols-2 my-12 md:my-12 py-24 gap-4' id="contact">
           <div>
@@ -26,7 +30,7 @@ const Contact = () => {
               </div>
           </div>
           <div>
-              <form className='flex flex-col' action="https://formsubmit.co/c8d544ebef9d048fa4823058bb096a31" method="POST">
+              <form className='flex flex-col' onSubmit={submit}>
                   <div className='mb-6'>
                     <label
                         htmlFor="email"
@@ -76,7 +80,7 @@ const Contact = () => {
                       type='submit'
                       className='text-white bg-blue-700 hover:bg-gradient-to-r hover:from-blue-700 hover:via-black-500 hover:to-green-800 font-medium py-2.5 px-5 rounded-lg w-full'
                   >
-                      Send Message
+                      {state.submitted ? `Submitted` : `Send Message`}
                   </button>
               </form>
           </div>

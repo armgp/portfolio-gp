@@ -80,8 +80,9 @@ const Contact = () => {
                       type='submit'
                       className='text-white bg-blue-700 hover:bg-gradient-to-r hover:from-blue-700 hover:via-black-500 hover:to-green-800 font-medium py-2.5 px-5 rounded-lg w-full'
                   >
-                      {state.submitted ? `Submitted` : `Send Message`}
+                      Send Message
                   </button>
+                  <div className='text-green-700 pt-2'>{state.submitted ? `Thanks for the message :)` : `` }</div>
               </form>
           </div>
           

@@ -2,6 +2,7 @@
 import React from 'react'
 import Image from 'next/image'
 import { TypeAnimation } from 'react-type-animation'
+import Link from 'next/link'
 
 const HeroSection = () => {
   return (
@@ -33,7 +34,7 @@ const HeroSection = () => {
                       <button
                           className='px-6 py-3 rounded-full w-full sm:w-fit bg-gradient-to-br from-blue-700 via-black-500 to-green-800  hover:bg-gradient-to-r hover:from-blue-700 hover:via-black-500 hover:to-green-800 text-white mr-4'
                       >
-                          Hire Me
+                          <Link href="#contact">Hire Me</Link> 
                       </button>
                       <a href='docs/Abhiram_GP_2023.pdf' download='AbhiramGP.pdf'>
                       <button

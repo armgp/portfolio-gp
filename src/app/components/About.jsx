@@ -80,6 +80,33 @@ const TAB_DATA = [
                         My Portfolio Page
                     </a>
                 </li>
+                <li>
+                    <a
+                        className='font-semibold underline hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r from-primary-700 via-black-500 to-primary-800  hover:bg-primary-800'
+                        href='https://github.com/armgp/ML-Projects/tree/main/Neural%20Sequence%20Model%20for%20Part-of-Speech%20Tagging'
+                        target="_blank"
+                    >
+                        Neural Sequence Model for Part-of-Speech Tagging
+                    </a>
+                </li>
+                <li>
+                    <a
+                        className='font-semibold underline hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r from-primary-700 via-black-500 to-primary-800  hover:bg-primary-800'
+                        href='https://github.com/armgp/ML-Projects/tree/main/Elmo-based%20Language%20Model%20Development%20and%20Evaluation'
+                        target="_blank"
+                    >
+                        Elmo-based Language Model Development and Evaluation
+                    </a>
+                </li>
+                <li>
+                    <a
+                        className='font-semibold underline hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r from-primary-700 via-black-500 to-primary-800  hover:bg-primary-800'
+                        href='https://github.com/armgp/ML-Projects/blob/main/Eigenface-Based%20Facial%20Recognition%20System.ipynb'
+                        target="_blank"
+                    >
+                        Eigenface-Based Facial Recognition System
+                    </a>
+                </li>
             </ul>
         )
     }
@@ -92,9 +119,10 @@ const About = () => {
 
     const handleTabChange = (id) => {
         // startTransition makes this state change a low priority state change
-        startTransition(() => {
-            setTab(id);
-        });
+        // startTransition(() => {
+        //     setTab(id);
+        // });
+        setTab(id);
     }
 
   return (

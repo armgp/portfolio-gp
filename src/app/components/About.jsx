@@ -61,22 +61,47 @@ const TAB_DATA = [
         content: (
             <ul className='list-disc'>
                 <li>
-                    <a className='font-semibold underline hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r from-primary-700 via-black-500 to-primary-800  hover:bg-primary-800' href='https://github.com/armgp/Bittorrent-Client' target="_blank">
-                        Mini BitTorrent
+                    <a
+                        className='font-semibold underline hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r from-primary-700 via-black-500 to-primary-800  hover:bg-primary-800'
+                        href='https://github.com/armgp/LinkHub'
+                        target="_blank"
+                    >
+                        LinkHub - Distributed IoT Platform
                     </a>
                 </li>
                 <li>
-                    <a className='font-semibold underline hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r from-primary-700 via-black-500 to-primary-800  hover:bg-primary-800' href='https://github.com/armgp/Terminal-File-Explorer' target="_blank">
-                        Terminal File Explorer
+                    <a
+                        className='font-semibold underline hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r from-primary-700 via-black-500 to-primary-800  hover:bg-primary-800'
+                        href='https://github.com/armgp/PeerShare'
+                        target="_blank"
+                    >
+                        PeerShare - P2P Filesharing
                     </a>
                 </li>
                 <li>
-                    <a className='font-semibold underline hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r from-primary-700 via-black-500 to-primary-800  hover:bg-primary-800' href='https://github.com/armgp/kaooa_game' target="_blank">
+                    <a
+                        className='font-semibold underline hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r from-primary-700 via-black-500 to-primary-800  hover:bg-primary-800'
+                        href='https://github.com/armgp/ShellScout'
+                        target="_blank"
+                    >
+                        ShellScout - Terminal File Explorer
+                    </a>
+                </li>
+                <li>
+                    <a
+                        className='font-semibold underline hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r from-primary-700 via-black-500 to-primary-800  hover:bg-primary-800'
+                        href='https://github.com/armgp/kaooa_game'
+                        target="_blank"
+                    >
                         Kaooa Board Game
                     </a>
                 </li>
                 <li>
-                    <a className='font-semibold underline hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r from-primary-700 via-black-500 to-primary-800  hover:bg-primary-800' href='https://github.com/armgp/portfolio-gp' target="_blank">
+                    <a
+                        className='font-semibold underline hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r from-primary-700 via-black-500 to-primary-800  hover:bg-primary-800'
+                        href='https://github.com/armgp/portfolio-gp'
+                        target="_blank"
+                    >
                         My Portfolio Page
                     </a>
                 </li>

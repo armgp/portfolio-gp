@@ -271,7 +271,13 @@ const About = () => {
                         active={tab === "projects"}
                     >
                         Projects
-                    </TabButton>                      
+                      </TabButton>   
+                    <TabButton
+                        selectTab={() => handleTabChange("certifications")}
+                        active={tab === "certifications"}
+                    >
+                        Certifications
+                    </TabButton>     
                   </div>
                   <div className='mt-8 text-gray-500'>
                       {TAB_DATA.find((t) => t.id === tab).content}
